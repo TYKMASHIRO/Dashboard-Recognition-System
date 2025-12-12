@@ -188,6 +188,6 @@ def main(model_path, image_folder, output_folder):
 # === Example call ===
 main(
     model_path="./scale_segment.pt",
-    image_folder="./data_valid",
-    output_folder="./scale_results"
+    image_folder="./testDB",
+    output_folder="./output"
 )

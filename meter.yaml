@@ -1,0 +1,13 @@
+# Train/Val/Test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2]
+path: . # dataset root dir
+train: datasets/images/train  # train images (relative to 'path') 
+val: datasets/images/val  # val images (relative to 'path') 
+test:  # test images (optional)
+
+# Classes
+names:
+  0: pointer
+  1: scale
+
+# Keypoints (optional, not used for segmentation but good to know)
+kpt_shape: [0, 0] 
