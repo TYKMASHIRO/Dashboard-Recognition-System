@@ -57,3 +57,4 @@ Dashboard-Recognition-System/
 2. 把它复制到项目根目录。
 3. 重命名为 `scale_segment.pt`。
 4. 现在你可以运行 `predict.py` 来识别你的图片了！
+进行中
