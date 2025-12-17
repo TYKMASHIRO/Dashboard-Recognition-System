@@ -17,7 +17,7 @@ def main():
         imgsz=640,
         project='runs/train',
         name='meter_segment_demo',
-        device='cpu' # 如果有NVIDIA显卡，请改为 '0'
+        device='0' # 如果有NVIDIA显卡，请改为 '0'
     )
 
     # 3. Export the model (optional)
